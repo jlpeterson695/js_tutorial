@@ -2,14 +2,15 @@
 <html>
   <head>
     <title>Learn Enough JavaScript</title>
+    <!-- https://jlpeterson695.github.io/js_tutorial/ -->
     <meta charset="utf-8">
       <script>
-        alert("hello, world!");
-        alert("hello, world...again!");
-        let firstName = "Josh";
-        let lastName = "Peterson";
-        console.log(`${firstName} ${lastName}`);
-      </script>
+        const daysOfTheWeek = ["Sunday", "Monday", "Tuesday", "Wednesday",
+                               "Thursday", "Friday", "Saturday"];
+        let now = new Date();
+        let dayName = daysOfTheWeek[now.getDay()];
+        alert(`Hello, world! Happy ${dayName}.`);
+    </script>
   </head>
   <body>
     <h1>Hello, world!</h1>
