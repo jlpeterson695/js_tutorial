@@ -4,11 +4,8 @@
     <title>Learn Enough JavaScript</title>
     <!-- https://jlpeterson695.github.io/js_tutorial/ -->
     <meta charset="utf-8">
+      <script src="day.js"></script>
       <script>
-        function dayName(date) {
-          const daysOfTheWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-          return daysOfTheWeek[date.getDay()];
-        }
         let now = new Date();
         alert(`Hello, world! Happy ${dayName(now)}.`);
     </script>
